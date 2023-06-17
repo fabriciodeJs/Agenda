@@ -49,6 +49,10 @@
   
 }
 
+.delete-form {
+  display: inline-block;
+}
+
 .delete-btn {
   background-color: transparent;
   border: none;
@@ -69,4 +73,52 @@
   text-align: center;
   margin: 0 auto;
   margin-top: 30px;
+}
+
+/* SHOW */
+
+#view-contact-container{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#back-link-container {
+  display: block;
+  width: 500px;
+  margin: 30px auto 0;
+}
+
+#back-link {
+  border: 1px solid #007bff;
+  color: #007bff;
+  border-radius: 4px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* create */ 
+
+#create-form, #edit-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group{
+  margin: 15px 0;
+}
+
+label {
+  margin: 5px 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+  #home-link{
+    display: none;
+  }
 }
